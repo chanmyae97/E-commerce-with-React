@@ -6,7 +6,6 @@ import Sidebar from "./Sidebar/Sidebar.jsx";
 
 //Database
 import data from "./db/data.jsx";
-import Category from "./Sidebar/Category/Category.jsx";
 import Card from "./conponents/Card.jsx";
 
 function App() {
