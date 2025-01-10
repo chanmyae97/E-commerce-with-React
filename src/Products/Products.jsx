@@ -1,20 +1,10 @@
 import "./Products.css";
 import Card from "../conponents/Card";
 
-const Products = () => {
+const Products = ({ result }) => {
   return (
     <>
-      <section className="card-container">
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-      </section>
+      <section className="card-container">{result}</section>
     </>
   );
 };
