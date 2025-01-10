@@ -20,7 +20,7 @@ function App() {
   };
 
   const filteredItems = data.filter((product) =>
-    product.title.toLocaleLowerCase().indexOf(query.toLocaleLowerCase() !== -1)
+    product.title.toLocaleLowerCase().includes(query.toLocaleLowerCase())
   );
 
   //Radio filter
